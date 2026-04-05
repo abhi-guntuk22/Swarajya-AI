@@ -1,0 +1,29 @@
+# Swarajya-AI Dependencies
+# Install: pip install -r requirements.txt
+
+# ── Web Framework ──────────────────────────
+streamlit>=1.35.0
+
+# ── HTTP Client ────────────────────────────
+requests>=2.31.0
+
+# ── System Monitoring ──────────────────────
+psutil>=5.9.0
+
+# ── GPU Support (optional but recommended) ─
+# AMD ROCm:   pip install torch --index-url https://download.pytorch.org/whl/rocm5.7
+# NVIDIA CUDA: pip install torch --index-url https://download.pytorch.org/whl/cu121
+# CPU only:   pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+# ── NVIDIA GPU Monitoring (optional) ───────
+# pynvml>=11.0.0
+
+# ── Future: RAG Support (Phase 2) ──────────
+# langchain>=0.2.0
+# chromadb>=0.5.0
+# sentence-transformers>=3.0.0
+# pypdf>=4.0.0
+
+# ── Future: Voice Interface (Phase 3) ──────
+# openai-whisper>=20231117
+# pyttsx3>=2.90
